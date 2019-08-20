@@ -10,7 +10,7 @@ const Login = () => {
         <h1>Create your Account</h1>
         <form className='RegisterForm'>
           <label>
-            Complete address
+            Complete name
             <br />
             <input type='text' placeholder='Name example' required />
             <br />

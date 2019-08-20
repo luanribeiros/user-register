@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Backend to user register",
+  "main": "index.js",
+  "repository": "https://github.com/luanribeiros/user-register",
+  "author": "Luan Ribeiro",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./src/main.js"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.0.0",
+    "boom": "^7.3.0",
+    "fastest-validator": "^0.6.17",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.8.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "sequelize": "^5.15.1",
+    "sequelize-cli": "^5.5.0",
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
